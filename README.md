@@ -76,7 +76,7 @@ php websocket.php
 
 首先HTTP协议有`1.1`和`1.0`之说，也就是所谓的`keep-alive`，把多个`HTTP`请求合并成为一个，但是`websocket`其实是一个新协议，和`http`协议基本没有关系，只是为了兼容现有的浏览器的握手规范而已，也就是说它是`http`协议上的一种补充，可以通过这样一张图来了解，
 
-![@有交集，但并不相等 | center | 300 * 0 ](http://img2.tuicool.com/iE3yuqA.png!web)
+![@有交集，但并不相等 | center | 300 * 0 ]([http://img2.tuicool.com/iE3yuqA.png!web](https://upload-images.jianshu.io/upload_images/2039222-59308ec2a855b4a5.png?imageMogr2/auto-orient/strip|imageView2/2/w/399/format/webp))
 
 
 另外Html5是指的一系列新的API，或者说新规范，新技术。Http协议本身只有1.0和1.1，而且跟Html本身没有直接关系。。通俗来说，你可以用HTTP协议传输非Html数据，就是这样=。=
